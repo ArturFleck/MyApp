@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 
 public class LeadClass {
-    static String pathTo = "D:/_profile/Desktop/Типові меблі ЕЛКОН ДІЗАЙН/ТИПОВІ КУХНІ/Пеналы 1/";
+    static String pathTo = "D:/_profile/Desktop/Типові меблі ЕЛКОН ДІЗАЙН/ТИПОВІ КУХНІ/";
     static File pathToMove = new File(pathTo);
     static File pathFromExport = new File("C:/Test5/3D-CON~1/KM5/Export/");
     static File pathFromTMP = new File("C:/Elecran/3D-Constructor 7/KM5/TMP/");
@@ -23,22 +23,22 @@ public class LeadClass {
         JTextField textField, textField1, textField2, textField3;
 
         textField = new JTextField();
-        textField.setText("D:/_profile/Desktop/Типові меблі ЕЛКОН ДІЗАЙН/ТИПОВІ КУХНІ/Пеналы 1/");
+        textField.setText(pathTo);
         textField.setBounds(10, 10, 400, 20);
         textField.setEnabled(false);
 
         textField1 = new JTextField();
-        textField1.setText("C:/Test5/3D-CON~1/KM5/Export/");
+        textField1.setText(String.valueOf(pathFromExport));
         textField1.setBounds(10, 40, 400, 20);
         textField1.setEnabled(false);
 
         textField2 = new JTextField();
-        textField2.setText("C:/Elecran/3D-Constructor 7/KM5/TMP/");
+        textField2.setText(String.valueOf(pathFromTMP));
         textField2.setBounds(10, 70, 400, 20);
         textField2.setEnabled(false);
 
         textField3 = new JTextField();
-        textField3.setText("D:/_profile/Desktop/Программы BHX/");
+        textField3.setText(String.valueOf(pathFromPrograms));
         textField3.setBounds(10, 100, 400, 20);
         textField3.setEnabled(false);
 
