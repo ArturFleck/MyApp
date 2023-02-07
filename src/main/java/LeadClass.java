@@ -20,7 +20,6 @@ public class LeadClass {
         frame.setLayout(null);
         UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
 
-
         JTextField textField, textField1, textField2, textField3;
 
         textField = new JTextField();
@@ -276,6 +275,6 @@ public class LeadClass {
             }
         });
 
-        
+
     }
 }
